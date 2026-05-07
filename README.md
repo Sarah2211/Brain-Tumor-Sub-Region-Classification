@@ -118,7 +118,6 @@ Brain-Tumor-Sub-Region-Classification/
 │
 ├── README.md
 └── Model_Notebooks/
-    ├── README.md
     ├── EfficientNet_B3_MeanPool.ipynb
     ├── ViT_B16_MeanPool.ipynb
     ├── SwinT_TemporalTransformer.ipynb
