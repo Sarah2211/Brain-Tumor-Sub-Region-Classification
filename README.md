@@ -1,6 +1,6 @@
 # Brain Tumor Sub-Region Classification on BraTS 2020
 
-> **CS 518 – Group 3** | Sarah Zahir Syeda · Gauthami Ghadiyaram · Sudha Sree Yerramsetty · Shriraksha Srinivas
+> **CS 518 – Group 3**
 
 Patient-level multi-label binary classification of glioma sub-regions from multi-modal MRI using the BraTS 2020 dataset. We implement and compare four deep learning pipelines, each pairing a different backbone with a different slice aggregation strategy.
 
