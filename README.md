@@ -1,4 +1,4 @@
-# 🧠 Brain Tumor Sub-Region Classification on BraTS2020
+# Brain Tumor Sub-Region Classification on BraTS2020
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c?style=flat-square&logo=pytorch)
@@ -9,7 +9,7 @@ Patient-level multi-label binary classification of brain tumor sub-regions, benc
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Brain tumors, particularly gliomas, are characterized by distinct sub-regions that differ in biology and clinical significance. Accurately identifying which sub-regions are present in a patient's scan supports diagnosis and treatment planning.
 
@@ -25,7 +25,7 @@ This is a **multi-label classification** problem — a patient can have any comb
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 **BraTS2020 — Brain Tumor Segmentation Challenge 2020**
 
@@ -39,7 +39,7 @@ This is a **multi-label classification** problem — a patient can have any comb
 
 ---
 
-## 🏗️ Models & Architecture
+## Models & Architecture
 
 All models share the same pipeline structure:
 
@@ -75,7 +75,7 @@ Four architectures are benchmarked, varying the backbone and aggregation strateg
 
 ---
 
-## ⚙️ Training Setup
+## Training Setup
 
 | Parameter | Value |
 |-----------|-------|
@@ -94,20 +94,20 @@ Four architectures are benchmarked, varying the backbone and aggregation strateg
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 Every model is evaluated on a held-out test set and outputs a standardized results.json containing:
 
-- ✅ **Classification Report** — Precision, Recall, F1 per class
-- ✅ **Confusion Matrix** — per tumor sub-region
-- ✅ **AUROC** — per class and macro average
-- ✅ **Log Loss** — per class and mean
+- **Classification Report** — Precision, Recall, F1 per class
+- **Confusion Matrix** — per tumor sub-region
+- **AUROC** — per class and macro average
+- **Log Loss** — per class and mean
 
 Cross-model comparison and visualizations are in visualization/comparison.ipynb.
 
 ---
 
-## 📚 References
+## References
 
 1. [EfficientNet](https://arxiv.org/pdf/1905.11946) — Tan & Le, 2019
 2. [Vision Transformer (ViT)](https://arxiv.org/abs/2010.11929) — Dosovitskiy et al., 2020
