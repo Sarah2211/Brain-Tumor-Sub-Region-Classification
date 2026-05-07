@@ -1,10 +1,5 @@
 # Brain Tumor Sub-Region Classification on BraTS2020
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c?style=flat-square&logo=pytorch)
-![Colab](https://img.shields.io/badge/Google_Colab-T4_GPU-F9AB00?style=flat-square&logo=googlecolab)
-
-
 Patient-level multi-label binary classification of brain tumor sub-regions, benchmarking four deep learning architectures — two CNNs and two Transformers — on the BraTS2020 dataset. Each model processes a full sequence of multi-modal MRI slices and predicts the presence or absence of clinically significant tumor regions.
 
 ---
